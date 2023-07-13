@@ -1,0 +1,51 @@
+nav {
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+  }
+  margin: auto;
+  height: 20vh;
+  width: 100%;
+  font-size: 24px;
+  color: black;
+  background-color: solid black;
+  .color-picker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(3, 1fr); /* Add 'auto' row to create a separate line for 'Top Center' */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+    justify-items: center;
+    align-items: center;
+  }
+
+  .grid-item {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-center {
+    grid-column: 1 / span 3; /* Span all columns */
+  }
+}

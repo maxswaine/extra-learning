@@ -1,0 +1,40 @@
+main {
+  .grid-item:nth-child(1) {
+    background-color: black;
+  }
+  .grid-item:nth-child(2) {
+    background-color: rgb(13, 13, 160);
+  }
+
+  .grid-item:nth-child(3) {
+    background-color: goldenrod;
+  }
+
+  .grid-item:nth-child(4) {
+    background-color: silver;
+  }
+
+  .grid-item:nth-child(5) {
+    background-color: lime;
+  }
+
+  .grid-item:nth-child(6) {
+    background-color: teal;
+  }
+
+  .grid-item:nth-child(7) {
+    background-color: salmon;
+  }
+
+  .grid-item:nth-child(8) {
+    background-color: purple;
+  }
+
+  .grid-item:nth-child(9) {
+    background-color: magenta;
+  }
+
+  .grid-item:nth-child(10) {
+    background-color: tomato;
+  }
+}
