@@ -77,7 +77,6 @@ main .grid-container {
 main .grid-item {
   width: 200px;
   height: 200px;
-  border: 2px solid green;
   color: white;
   font-size: 20px;
   display: flex;
